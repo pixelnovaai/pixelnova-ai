@@ -109,7 +109,8 @@ footer{
     text-align:center;
     padding:30px;
     margin-top:80px;
-}.upload-box{
+} 
+.upload-box{
     display:flex;
     justify-content:center;
     margin-top:40px;
