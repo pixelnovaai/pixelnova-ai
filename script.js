@@ -1,11 +1,15 @@
 const fileInput = document.getElementById("fileInput");
+const previewImage = document.getElementById("previewImage");
 
-fileInput.addEventListener("change", function(){
+fileInput.addEventListener("change", function () {
+    if (this.files && this.files[0]) {
+        const reader = new FileReader();
 
-if(this.files.length>0){
+        reader.onload = function (e) {
+            previewImage.src = e.target.result;
+            previewImage.style.display = "block";
+        };
 
-alert("Selected: " + this.files[0].name);
-
-}
-
+        reader.readAsDataURL(this.files[0]);
+    }
 });
