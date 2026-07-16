@@ -1,4 +1,4 @@
-const API_KEY =5b7b8c5dca59aff57c7d518ee174ecdd103e77e666986275e60dc01d8c370d92b4719bfa707b7fb7eef3f3bef08dcc4c
+const API_KEY = "5b7b8c5dca59aff57c7d518ee174ecdd103e7...";
 const fileInput = document.getElementById("fileInput");
 const previewImage = document.getElementById("previewImage");
 
