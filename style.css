@@ -110,3 +110,49 @@ footer{
     padding:30px;
     margin-top:80px;
 }
+.upload-box{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.upload-area{
+
+    width:500px;
+    max-width:90%;
+
+    border:3px dashed #38bdf8;
+
+    border-radius:20px;
+
+    padding:60px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    background:#111827;
+
+}
+
+.upload-area:hover{
+
+    background:#1e293b;
+
+    transform:scale(1.02);
+
+}
+
+.upload-area h2{
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+}
+
+.upload-area p{
+
+    color:#cbd5e1;
+
+}
